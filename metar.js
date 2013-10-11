@@ -248,7 +248,7 @@ METAR.prototype.parse = function() {
     this.parseDate();
     this.parseAuto();
     this.parseWind();
-    this.parseCavok();
+    //this.parseCavok();
     this.parseVisibility();
     this.parseWeather();
     this.parseClouds();
